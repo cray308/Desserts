@@ -1,0 +1,19 @@
+{
+  "meals": [
+    {
+      "strMeal": "Nanaimo Bars",
+      "strMealThumb": "",
+      "idMeal": "52924"
+    },
+    {
+      "strMeal": "Mince Pies",
+      "strMealThumb": "",
+      "idMeal": "52991"
+    },
+    {
+      "strMeal": "Madeira Cake",
+      "strMealThumb": "",
+      "idMeal": "52900"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "meals": [
+    {
+      "idMeal": "52894",
+      "strMeal": "Battenberg Cake",
+      "strCategory": "Dessert",
+      "strInstructions": "Instructions",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/ywwrsp1511720277.jpg",
+      "strIngredient6": "eggs",
+      "strIngredient7": "salt",
+      "strIngredient8": "flour",
+      "strIngredient9": "oil",
+      "strIngredient10": "lemon",
+      "strIngredient11": "sugar",
+      "strIngredient12": "cinnamon",
+      "strMeasure6": "2",
+      "strMeasure7": "1 ½ tsp",
+      "strMeasure8": "2-1/2 Cups",
+      "strMeasure9": "For Frying",
+      "strMeasure10": "Garnish",
+      "strMeasure11": "Garnish",
+      "strMeasure12": "Garnish"
+    }
+  ]
+}

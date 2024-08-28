@@ -1,0 +1,19 @@
+{
+  "meals": [
+    {
+      "idMeal": "52894",
+      "strMeal": "Battenberg Cake",
+      "strCategory": "Dessert",
+      "strInstructions": "Instructions",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/ywwrsp1511720277.jpg",
+      "strIngredient1": "",
+      "strIngredient2": "Marzipan",
+      "strIngredient3": "",
+      "strIngredient4": "Almonds",
+      "strMeasure1": "200g",
+      "strMeasure2": " ",
+      "strMeasure3": " ",
+      "strMeasure4": "50g"
+    }
+  ]
+}

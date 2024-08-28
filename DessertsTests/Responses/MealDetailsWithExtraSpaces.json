@@ -1,0 +1,19 @@
+{
+  "meals": [
+    {
+      "idMeal": "52894",
+      "strMeal": "Battenberg Cake",
+      "strCategory": "Dessert",
+      "strInstructions": "Instructions",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/ywwrsp1511720277.jpg",
+      "strIngredient1": "Butter",
+      "strIngredient2": "Caster Sugar",
+      "strIngredient3": "Self-Raising Flour",
+      "strIngredient4": "Almonds",
+      "strMeasure1": "  175g  ",
+      "strMeasure2": " 175g",
+      "strMeasure3": "140g ",
+      "strMeasure4": "50g"
+    }
+  ]
+}

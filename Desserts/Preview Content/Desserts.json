@@ -1,0 +1,329 @@
+{
+  "meals": [
+    {
+      "strMeal": "Madeira Cake",
+      "strMealThumb": "",
+      "idMeal": "52900"
+    },
+    {
+      "strMeal": "Mince Pies",
+      "strMealThumb": "",
+      "idMeal": "52991"
+    },
+    {
+      "strMeal": "Nanaimo Bars",
+      "strMealThumb": "",
+      "idMeal": "52924"
+    },
+    {
+      "strMeal": "New York cheesecake",
+      "strMealThumb": "",
+      "idMeal": "52858"
+    },
+    {
+      "strMeal": "Pancakes",
+      "strMealThumb": "",
+      "idMeal": "52854"
+    },
+    {
+      "strMeal": "Parkin Cake",
+      "strMealThumb": "",
+      "idMeal": "52902"
+    },
+    {
+      "strMeal": "Peach & Blueberry Grunt",
+      "strMealThumb": "",
+      "idMeal": "52862"
+    },
+    {
+      "strMeal": "Peanut Butter Cheesecake",
+      "strMealThumb": "",
+      "idMeal": "52861"
+    },
+    {
+      "strMeal": "Peanut Butter Cookies",
+      "strMealThumb": "",
+      "idMeal": "52958"
+    },
+    {
+      "strMeal": "Pear Tarte Tatin",
+      "strMealThumb": "",
+      "idMeal": "52916"
+    },
+    {
+      "strMeal": "Polskie Naleśniki (Polish Pancakes)",
+      "strMealThumb": "",
+      "idMeal": "53022"
+    },
+    {
+      "strMeal": "Portuguese custard tarts",
+      "strMealThumb": "",
+      "idMeal": "53046"
+    },
+    {
+      "strMeal": "Pouding chomeur",
+      "strMealThumb": "",
+      "idMeal": "52932"
+    },
+    {
+      "strMeal": "Pumpkin Pie",
+      "strMealThumb": "",
+      "idMeal": "52857"
+    },
+    {
+      "strMeal": "Rock Cakes",
+      "strMealThumb": "",
+      "idMeal": "52901"
+    },
+    {
+      "strMeal": "Rocky Road Fudge",
+      "strMealThumb": "",
+      "idMeal": "52786"
+    },
+    {
+      "strMeal": "Rogaliki (Polish Croissant Cookies)",
+      "strMealThumb": "",
+      "idMeal": "53024"
+    },
+    {
+      "strMeal": "Salted Caramel Cheescake",
+      "strMealThumb": "",
+      "idMeal": "52833"
+    },
+    {
+      "strMeal": "Seri muka kuih",
+      "strMealThumb": "",
+      "idMeal": "53054"
+    },
+    {
+      "strMeal": "Spotted Dick",
+      "strMealThumb": "",
+      "idMeal": "52886"
+    },
+    {
+      "strMeal": "Sticky Toffee Pudding",
+      "strMealThumb": "",
+      "idMeal": "52883"
+    },
+    {
+      "strMeal": "Sticky Toffee Pudding Ultimate",
+      "strMealThumb": "",
+      "idMeal": "52793"
+    },
+    {
+      "strMeal": "Strawberries Romanoff",
+      "strMealThumb": "",
+      "idMeal": "53082"
+    },
+    {
+      "strMeal": "Strawberry Rhubarb Pie",
+      "strMealThumb": "",
+      "idMeal": "53005"
+    },
+    {
+      "strMeal": "Sugar Pie",
+      "strMealThumb": "",
+      "idMeal": "52931"
+    },
+    {
+      "strMeal": "Summer Pudding",
+      "strMealThumb": "",
+      "idMeal": "52889"
+    },
+    {
+      "strMeal": "Tarte Tatin",
+      "strMealThumb": "",
+      "idMeal": "52909"
+    },
+    {
+      "strMeal": "Timbits",
+      "strMealThumb": "",
+      "idMeal": "52929"
+    },
+    {
+      "strMeal": "Treacle Tart",
+      "strMealThumb": "",
+      "idMeal": "52892"
+    },
+    {
+      "strMeal": "Tunisian Orange Cake",
+      "strMealThumb": "",
+      "idMeal": "52970"
+    },
+    {
+      "strMeal": "Walnut Roll Gužvara",
+      "strMealThumb": "",
+      "idMeal": "53062"
+    },
+    {
+      "strMeal": "White chocolate creme brulee",
+      "strMealThumb": "",
+      "idMeal": "52917"
+    },
+    {
+      "strMeal": "Apam balik",
+      "strMealThumb": "",
+      "idMeal": "53049"
+    },
+    {
+      "strMeal": "Apple & Blackberry Crumble",
+      "strMealThumb": "",
+      "idMeal": "52893"
+    },
+    {
+      "strMeal": "Apple Frangipan Tart",
+      "strMealThumb": "",
+      "idMeal": "52768"
+    },
+    {
+      "strMeal": "Bakewell tart",
+      "strMealThumb": "",
+      "idMeal": "52767"
+    },
+    {
+      "strMeal": "Banana Pancakes",
+      "strMealThumb": "",
+      "idMeal": "52855"
+    },
+    {
+      "strMeal": "Battenberg Cake",
+      "strMealThumb": "",
+      "idMeal": "52894"
+    },
+    {
+      "strMeal": "BeaverTails",
+      "strMealThumb": "",
+      "idMeal": "52928"
+    },
+    {
+      "strMeal": "Blackberry Fool",
+      "strMealThumb": "",
+      "idMeal": "52891"
+    },
+    {
+      "strMeal": "Bread and Butter Pudding",
+      "strMealThumb": "",
+      "idMeal": "52792"
+    },
+    {
+      "strMeal": "Budino Di Ricotta",
+      "strMealThumb": "",
+      "idMeal": "52961"
+    },
+    {
+      "strMeal": "Canadian Butter Tarts",
+      "strMealThumb": "",
+      "idMeal": "52923"
+    },
+    {
+      "strMeal": "Carrot Cake",
+      "strMealThumb": "",
+      "idMeal": "52897"
+    },
+    {
+      "strMeal": "Cashew Ghoriba Biscuits",
+      "strMealThumb": "",
+      "idMeal": "52976"
+    },
+    {
+      "strMeal": "Chelsea Buns",
+      "strMealThumb": "",
+      "idMeal": "52898"
+    },
+    {
+      "strMeal": "Chinon Apple Tarts",
+      "strMealThumb": "",
+      "idMeal": "52910"
+    },
+    {
+      "strMeal": "Choc Chip Pecan Pie",
+      "strMealThumb": "",
+      "idMeal": "52856"
+    },
+    {
+      "strMeal": "Chocolate Avocado Mousse",
+      "strMealThumb": "",
+      "idMeal": "52853"
+    },
+    {
+      "strMeal": "Chocolate Caramel Crispy",
+      "strMealThumb": "",
+      "idMeal": "52966"
+    },
+    {
+      "strMeal": "Chocolate Gateau",
+      "strMealThumb": "",
+      "idMeal": "52776"
+    },
+    {
+      "strMeal": "Chocolate Raspberry Brownies",
+      "strMealThumb": "",
+      "idMeal": "52860"
+    },
+    {
+      "strMeal": "Chocolate Souffle",
+      "strMealThumb": "",
+      "idMeal": "52905"
+    },
+    {
+      "strMeal": "Christmas cake",
+      "strMealThumb": "",
+      "idMeal": "52990"
+    },
+    {
+      "strMeal": "Christmas Pudding Flapjack",
+      "strMealThumb": "",
+      "idMeal": "52788"
+    },
+    {
+      "strMeal": "Christmas Pudding Trifle",
+      "strMealThumb": "",
+      "idMeal": "52989"
+    },
+    {
+      "strMeal": "Classic Christmas pudding",
+      "strMealThumb": "",
+      "idMeal": "52988"
+    },
+    {
+      "strMeal": "Dundee cake",
+      "strMealThumb": "",
+      "idMeal": "52899"
+    },
+    {
+      "strMeal": "Eccles Cakes",
+      "strMealThumb": "",
+      "idMeal": "52888"
+    },
+    {
+      "strMeal": "Eton Mess",
+      "strMealThumb": "",
+      "idMeal": "52791"
+    },
+    {
+      "strMeal": "Honey Yogurt Cheesecake",
+      "strMealThumb": "",
+      "idMeal": "53007"
+    },
+    {
+      "strMeal": "Hot Chocolate Fudge",
+      "strMealThumb": "",
+      "idMeal": "52787"
+    },
+    {
+      "strMeal": "Jam Roly-Poly",
+      "strMealThumb": "",
+      "idMeal": "52890"
+    },
+    {
+      "strMeal": "Key Lime Pie",
+      "strMealThumb": "",
+      "idMeal": "52859"
+    },
+    {
+      "strMeal": "Krispy Kreme Donut",
+      "strMealThumb": "",
+      "idMeal": "53015"
+    }
+  ]
+}
