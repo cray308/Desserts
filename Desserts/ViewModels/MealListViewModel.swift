@@ -12,9 +12,9 @@ class MealListViewModel: ObservableObject {
     private let logger = Logger(subsystem: "com.cray2.Desserts", category: "MealList")
     private let provider: MealListProviding
 
-    private var hasError: Bool = false
     private(set) var error: DessertsError?
-    @Published private(set) var meals: [MealSummary] = []
+    private(set) var meals: [MealSummary] = []
+    @Published private(set) var isLoading: Bool = true
 
     init(provider: MealListProviding) {
         self.provider = provider
@@ -22,24 +22,31 @@ class MealListViewModel: ObservableObject {
 
     var errorBinding: Binding<Bool> {
         Binding(
-            get: { self.hasError },
-            set: { self.hasError = $0 }
+            get: { self.error != nil },
+            set: { _ in
+                self.error = nil
+            }
         )
     }
 
     func fetchMeals() async {
+        await MainActor.run {
+            isLoading = true
+        }
+
         do {
             let meals = try await provider.fetchMeals()
             let sortedMeals = meals.sorted()
             await MainActor.run {
                 self.meals = sortedMeals
+                self.isLoading = false
             }
         } catch {
             logger.error("Encountered error: \(error.localizedDescription)")
             await MainActor.run {
                 self.error = error as? DessertsError ?? .unexpected(error)
                 self.meals = []
-                self.hasError = true
+                self.isLoading = false
             }
         }
     }
