@@ -11,9 +11,19 @@
       "idMeal": "52991"
     },
     {
-      "strMeal": "Madeira Cake",
+      "strMeal": "madeira cake",
       "strMealThumb": "",
       "idMeal": "52900"
-    }
+    },
+    {
+      "strMeal": "Christmas cake",
+      "strMealThumb": "",
+      "idMeal": "52990"
+    },
+    {
+      "strMeal": "Christmas Pudding Flapjack",
+      "strMealThumb": "",
+      "idMeal": "52788"
+    },
   ]
 }

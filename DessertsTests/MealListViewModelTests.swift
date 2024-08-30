@@ -21,11 +21,13 @@ final class MealListViewModelTests: XCTestCase {
         XCTAssertNotNil(viewModel.error)
     }
 
-    func testValidResponseHasItemsInAlphabeticalOrder() async {
+    func testValidResponseHasItemsCapitalizedAndInAlphabeticalOrder() async {
         let viewModel = createViewModel(fileName: "MealList")
         await viewModel.fetchMeals()
 
         let expectedContents: [MealSummary] = [
+            MealSummary(name: "Christmas Cake", imageURL: "", id: "52990"),
+            MealSummary(name: "Christmas Pudding Flapjack", imageURL: "", id: "52788"),
             MealSummary(name: "Madeira Cake", imageURL: "", id: "52900"),
             MealSummary(name: "Mince Pies", imageURL: "", id: "52991"),
             MealSummary(name: "Nanaimo Bars", imageURL: "", id: "52924")

@@ -33,11 +33,15 @@ initialized with the `mealListProvider`. Before the view appears, a `task` is ru
 view model to fetch the meals. Since the view model publishes an `isLoading` property, a progress
 view will be visible while fetching the data.
 
-Assuming the request is successful, the meals are sorted and then the UI is updated to display a
+Assuming the request is successful, the meal names are all capitalized to provide a consistent
+appearance and ensure that the string comparisons to be performed during sorting order items
+properly. For instance, "Christmas cake" should be before "Christmas Pudding", but without doing a
+case-insensitive comparison or capitalizing each word, the letter 'P' is considered to be less than
+'c'. After this transformation, the meals are sorted and then the UI is updated to display a
 list of `MealSummaryViews`. The summary views are composed of an `AsyncImage` and the meal name.
 Based on the API description, small preview images can be accessed by appending `/preview` to the
-value from the `strMealThumb` field. I did notice that the preview images for "Madeira cake" and
-"Pouding chomeur" don't exist - however, for the sake of efficiency, I decided to continue fetching
+value from the `strMealThumb` field. I did notice that the preview images for "Madeira Cake" and
+"Pouding Chomeur" don't exist - however, for the sake of efficiency, I decided to continue fetching
 the preview images instead of the full-size images. An SF Symbols image is used as a placeholder
 for those meals where the preview image can't be accessed.
 

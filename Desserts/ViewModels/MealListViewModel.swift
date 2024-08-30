@@ -35,19 +35,19 @@ class MealListViewModel: ObservableObject {
         }
 
         do {
-            let meals = try await provider.fetchMeals()
-            let sortedMeals = meals.sorted()
-            await MainActor.run {
-                self.meals = sortedMeals
-                self.isLoading = false
+            var meals = try await provider.fetchMeals()
+            for i in 0..<meals.count {
+                meals[i].name = meals[i].name.capitalized
             }
+            self.meals = meals.sorted()
         } catch {
             logger.error("Encountered error: \(error.localizedDescription)")
-            await MainActor.run {
-                self.error = error as? DessertsError ?? .unexpected(error)
-                self.meals = []
-                self.isLoading = false
-            }
+            self.error = error as? DessertsError ?? .unexpected(error)
+            self.meals = []
+        }
+
+        await MainActor.run {
+            isLoading = false
         }
     }
 }

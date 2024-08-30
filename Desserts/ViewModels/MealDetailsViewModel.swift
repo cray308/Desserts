@@ -23,16 +23,13 @@ class MealDetailsViewModel: ObservableObject {
 
     func fetchMealDetails() async {
         do {
-            let details = try await provider.fetchDetails(id: mealID)
-            await MainActor.run {
-                self.details = details
-                self.isLoading = false
-            }
+            details = try await provider.fetchDetails(id: mealID)
         } catch {
             logger.error("Encountered error: \(error.localizedDescription)")
-            await MainActor.run {
-                self.isLoading = false
-            }
+        }
+
+        await MainActor.run {
+            isLoading = false
         }
     }
 }
